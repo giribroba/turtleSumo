@@ -13,7 +13,6 @@ public class lixoBehavior : MonoBehaviour
         {
             scoreCount.Count -= pontosPerdidos;
             vidaCount.Vida -= pontosPerdidos;
-            vidaCount.Morrivel = true;
             Destroy(Lixo);
         }
     }
